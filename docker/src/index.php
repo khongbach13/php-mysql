@@ -1,8 +1,8 @@
 <?php
-$servername = getenv('mysql-1'); // Tên biến môi trường
-$username = getenv('phuonglv');
-$password = getenv('Phuong@2000');
-$dbname = getenv('web');
+$servername = 'mysql-my'; // Tên biến môi trường
+$username = 'phuonglv';
+$password = 'Phuong@2000';
+$dbname = 'web';
 
 // Tạo kết nối
 $conn = new mysqli($servername, $username, $password, $dbname);
